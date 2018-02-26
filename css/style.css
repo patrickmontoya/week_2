@@ -1,0 +1,196 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Header Styles - Start*/
+header {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 32%;
+}
+
+header h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-top: 100px;
+}
+
+header .headerBtn {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  background-color: #ffff00;
+  padding: 8px 70px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+header .headerBtn:hover {
+  background-color: #141313;
+  color: #ffff00;
+}
+/* Header Styles - End*/
+
+/* Benefits Styles - Start*/
+.benefits {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: mintcream;
+}
+
+.benefits .contentContainer {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.benefits h2 {
+  font-size: 40px;
+  position: relative;
+  left: -90px;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+  position: relative;
+  left: -50px;
+}
+/* Benefits Styles - End*/
+
+/* Quote Styles - Start*/
+.quote {
+  background-color: #000;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: url(../images/testimonial_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote blockquote {
+  max-width: 400px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.quote .bold {
+  font-weight: bold;
+}
+/* Quote Styles - End*/
+
+/* CTA Styles - Start*/
+.callToAction {
+  background-color: #ffff00;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.callToAction .callToActionBtn {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background-color: rgb(3,47,72);
+  font-size: 14px;
+  padding: 8px 70px;
+  border-radius: 3px;
+  font-weight: bold;
+  /*letter-spacing: .5px;*/
+  font-size: 25px;
+}
+
+.callToAction .callToActionBtn:hover {
+  background-color: #3c3d3e;
+  color: rgb(247,227,44);
+}
+/* CTA Styles - End*/
+
+/* Footer Styles - Start*/
+footer {
+  background-color: #141313;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h3 {
+  font-size: 40px;
+  color: #ffff00;
+  margin: 0;
+  letter-spacing: .5px;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li:last-of-type {
+  margin-left: 10px;
+}
+
+footer .twitter, footer .facebook {
+  text-decoration: none;
+}
+
+footer .twitter {
+  color: white;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+footer .twitter:hover {
+  color: #1DA1F2;
+}
+
+footer .facebook {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+footer .facebook:hover {
+  color: #3B5998;
+}
+
+footer .copyright {
+  font-size: 12px;
+}
+.benefits p {
+	font-size: 25px;
+	position: relative;
+	left: -90px;
+}
+
+/* Footer Styles - End*/
